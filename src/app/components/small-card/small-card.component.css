@@ -1,0 +1,29 @@
+*{
+  color: aliceblue
+}
+
+.container__small-card{
+
+  max-width: 450px;
+  justify-content: center;
+}
+
+.container__small-card-content{
+  margin: 15px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.small-card__img > img {
+  display: flex;
+  width: 150px;
+  min-width: 150px;
+}
+
+.small-card__description > a > p{
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 0 10px;
+}

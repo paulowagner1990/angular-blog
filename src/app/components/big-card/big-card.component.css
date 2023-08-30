@@ -1,0 +1,37 @@
+.container__big-card{
+  margin: 0 10px;
+  padding-bottom: 15px;
+  border: 1px solid white;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+}
+
+.big-card__img > img {
+  display: flex;
+  width: 100%;
+  min-width: 100%;
+}
+
+
+.big-card__author > h5{
+  color: grey;
+  margin-top: 5px;
+}
+
+.big-card__title > h1{
+  font-size: 27 px;
+  margin-top: 5px;
+}
+
+.big-card__description{
+  margin-top: 10px;
+
+}
+
+.big-card__description > a > p{
+  color: gray;
+}
