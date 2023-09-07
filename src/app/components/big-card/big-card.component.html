@@ -6,12 +6,12 @@
     <h5>{{nomeAuthor}}</h5>
   </div>
   <div class="big-card__title">
-    <a href="http://www.google.com.br" target="_blank">
+    <a [routerLink]="['content', Id]">
       <h1>{{cardTitle}}</h1>
     </a>
   </div>
   <div class="big-card__description">
-    <a href="#">
+    <a [routerLink]="['content', Id]">
       <p>{{cardDescription}}</p>
     </a>
   </div>
